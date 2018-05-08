@@ -1423,7 +1423,7 @@ body {
 }
 .cid-qRsigXRYG4 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 15px;
   background-color: #f9f9f9;
 }
 .cid-qRsigXRYG4 h4 {
@@ -1440,6 +1440,27 @@ body {
 .cid-qRsigXRYG4 .card-img span {
   font-size: 72px;
   color: #707070;
+}
+.cid-qRurYae0N6 {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-qRurYae0N6 .image-block {
+  margin: auto;
+}
+.cid-qRurYae0N6 figcaption {
+  position: relative;
+}
+.cid-qRurYae0N6 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qRurYae0N6 .image-block {
+    width: 100% !important;
+  }
 }
 .cid-qRsihkOJPv {
   padding-top: 90px;
