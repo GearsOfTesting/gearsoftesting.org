@@ -33,9 +33,10 @@
     "noImageResize": "",
     "versionFirst": "4.7.2",
     "uniqCompNum": 28,
-    "versionPublish": "4.7.2",
+    "versionPublish": "4.7.7",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
