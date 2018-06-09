@@ -1381,6 +1381,47 @@ body {
 .cid-qRnDBH4CwZ H3 {
   color: #ff7f9f;
 }
+.cid-qUtNrvByr9 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/and-testing-lives-1600x750.jpg");
+}
+.cid-qUtNrvByr9 h4 {
+  font-weight: 500;
+  color: #ffffff;
+}
+.cid-qUtNrvByr9 p {
+  color: #ffffff;
+}
+.cid-qUtNrvByr9 .card {
+  margin-bottom: 2rem;
+}
+.cid-qUtNrvByr9 .card-img {
+  border-radius: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+.cid-qUtNrvByr9 .card-img span {
+  font-size: 100px;
+  color: #ffffff;
+}
+.cid-qUtNrvByr9 .card-box {
+  padding-bottom: 2rem;
+}
+.cid-qUtNrvByr9 .card-box .card-title {
+  margin: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+.cid-qUtNrvByr9 .card-box .mbr-text {
+  margin-bottom: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+.cid-qUtNrvByr9 .card-box .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-qUtNrvByr9 .card-box .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
 .cid-qRshJeafue {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1524,6 +1565,149 @@ body {
 .cid-qRskgOqqqf .card-img span {
   font-size: 72px;
   color: #707070;
+}
+.cid-qRuggtLoj0 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-qUukLYPeP5 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background5.jpg");
+}
+.cid-qUukLYPeP5 P {
+  text-align: center;
+}
+.cid-qUtWlstmVm {
+  background: #ffffff;
+}
+.cid-qUtWlstmVm .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-qUtWlstmVm .mbr-figure {
+  margin: 0 auto;
+}
+.cid-qUtWlstmVm figcaption {
+  position: relative;
+}
+.cid-qUtWlstmVm figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qUtWlstmVm .image-block {
+    width: 100% !important;
+  }
+}
+.cid-qUu1pdxssz {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-qUu1pdxssz .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qUu1pdxssz .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qUu1pdxssz .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qUu1pdxssz .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qUu1pdxssz .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qUu1pdxssz .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qUu1pdxssz .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qUu1pdxssz .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qUu1pdxssz .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-qUueBAJ4Bd {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-qUueBAJ4Bd .image-block {
+  margin: auto;
+}
+.cid-qUueBAJ4Bd figcaption {
+  position: relative;
+}
+.cid-qUueBAJ4Bd figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qUueBAJ4Bd .image-block {
+    width: 100% !important;
+  }
+}
+.cid-qUuegFpfcr {
+  background: #ffffff;
+}
+.cid-qUuegFpfcr .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-qUuegFpfcr .mbr-figure {
+  margin: 0 auto;
+}
+.cid-qUuegFpfcr figcaption {
+  position: relative;
+}
+.cid-qUuegFpfcr figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qUuegFpfcr .image-block {
+    width: 100% !important;
+  }
 }
 .cid-qRuggtLoj0 {
   padding-top: 30px;
