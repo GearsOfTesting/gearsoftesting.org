@@ -1602,6 +1602,21 @@ body {
     width: 100% !important;
   }
 }
+.cid-qVrHCYoMEC {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #232323, #55b4d4);
+}
+@media (min-width: 992px) {
+  .cid-qVrHCYoMEC .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qVrHCYoMEC .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-qUu1pdxssz {
   padding-top: 0px;
   padding-bottom: 30px;
