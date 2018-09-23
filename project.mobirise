@@ -37,7 +37,7 @@
         "#f9f9f9"
       ]
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-70x70.png",
     "noImageResize": "",
     "versionFirst": "4.7.2",
     "uniqCompNum": 127,
