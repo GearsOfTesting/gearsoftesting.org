@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Gears Of Testing",
-    "currentPage": "mastering.html",
+    "currentPage": "test-typology.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -823,13 +823,39 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/test-targets-1066x1126.png",
-                "thumb": "@PROJECT_PATH@/assets/images/test-targets-1066x1126-800x845.png",
+                "image": "@PROJECT_PATH@/assets/images/test-targets-1-1066x1126.png",
+                "thumb": "@PROJECT_PATH@/assets/images/test-targets-1-1066x1126-800x845.png",
                 "alt": "Test targets",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
                 "active": true
+              },
+              {
+                "tags": "Definition",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/structured-scripted-long-scripted-adhoc-1324x434.png",
+                "thumb": "@PROJECT_PATH@/assets/images/structured-scripted-long-scripted-adhoc-1324x434-800x262.png",
+                "alt": "ad hoc, structured, short-scripted, long-scripted",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tapez la légende ici",
+                "active": false
+              },
+              {
+                "tags": "Definition",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/static-vs-dynamic-testing-1046x750.png",
+                "thumb": "@PROJECT_PATH@/assets/images/static-vs-dynamic-testing-1046x750-800x574.png",
+                "alt": "Static vs dynamic testing",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tapez la légende ici",
+                "active": false
               },
               {
                 "tags": "Categorisation",
@@ -875,21 +901,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/structured-scripted-long-scripted-adhoc-1324x434.png",
-                "thumb": "@PROJECT_PATH@/assets/images/structured-scripted-long-scripted-adhoc-1324x434-800x262.png",
-                "alt": "ad hoc, structured, short-scripted, long-scripted",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Categorisation",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/categorisations-with-pyramid-1-1664x944.png",
-                "thumb": "@PROJECT_PATH@/assets/images/categorisations-with-pyramid-1-1664x944-800x454.png",
+                "image": "@PROJECT_PATH@/assets/images/categorisations-with-pyramid-2-1664x944.png",
+                "thumb": "@PROJECT_PATH@/assets/images/categorisations-with-pyramid-2-1664x944-800x454.png",
                 "alt": "Categorisations with a pyramid",
                 "title": "",
                 "customStyle1": "display-7",
@@ -904,19 +917,6 @@
                 "image": "@PROJECT_PATH@/assets/images/performance-testing-areas-1488x1452.png",
                 "thumb": "@PROJECT_PATH@/assets/images/performance-testing-areas-1488x1452-800x781.png",
                 "alt": "Performance testing areas",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "Categorisation",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/static-vs-dynamic-testing-1046x750.png",
-                "thumb": "@PROJECT_PATH@/assets/images/static-vs-dynamic-testing-1046x750-800x574.png",
-                "alt": "Static vs dynamic testing",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
@@ -3439,11 +3439,11 @@
           "_name": "content6",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/mbr-436x245.jpg\" alt=\"Book\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Educational supports</b><br>Choose the more proper support to teach. Reading and listening are not enough, visualising is paramount. Play with words, shapes and colors. Didactic spikes are perfect to mix both theorical and practical matters.<br>And remember: \"a good sketch is better than a long discourse.\" Napoleon.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r4sMbRFpej",
+          "_anchor": "content6-3h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-3h"
+          "_params": {}
         },
         {
           "_styles": {
@@ -3513,11 +3513,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Shu-Ha-Ri</b><b><br></b>&nbsp;Follow workouts in a global program to progress cleverly and to get better results.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/mbr-1-436x330.jpg\" alt=\"Success\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r4t0S9fBPF",
+          "_anchor": "content7-3i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content7-3i"
+          "_params": {}
         },
         {
           "_styles": {
