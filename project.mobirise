@@ -829,7 +829,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Definition",
@@ -856,6 +856,19 @@
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
                 "active": false
+              },
+              {
+                "tags": "Definition",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/who-tests-846x696.png",
+                "thumb": "@PROJECT_PATH@/assets/images/who-tests-846x696-800x658.png",
+                "alt": "Who tests? Who are testers?",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tapez la légende ici",
+                "active": true
               },
               {
                 "tags": "Categorisation",
