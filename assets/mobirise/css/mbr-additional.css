@@ -3793,28 +3793,13 @@ body {
     width: 100% !important;
   }
 }
-.cid-rbyogFhYxQ {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-rdwryfzxzZ {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #149dcc;
 }
-.cid-rbyogFhYxQ .line {
-  background-color: #ffffff;
+.cid-rdwryfzxzZ .mbr-section-subtitle {
   color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-rbyogFhYxQ .section-text {
-  padding: 2rem 0;
-}
-.cid-rbyogFhYxQ .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-rbyogFhYxQ .inner-container {
-    width: 100% !important;
-  }
 }
 .cid-rbynCf6Dll {
   padding-top: 60px;
@@ -3869,17 +3854,13 @@ body {
     width: 100% !important;
   }
 }
-.cid-rbyvVoqn2f {
-  padding-top: 90px;
-  padding-bottom: 0px;
+.cid-rdwtX7s3xC {
+  padding-top: 105px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-rbyvVoqn2f .mbr-text,
-.cid-rbyvVoqn2f blockquote {
+.cid-rdwtX7s3xC .mbr-section-subtitle {
   color: #767676;
-}
-.cid-rbyvVoqn2f .mbr-text {
-  text-align: center;
 }
 .cid-rbyak24z4J {
   padding-top: 60px;
@@ -3944,6 +3925,14 @@ body {
     width: 100% !important;
   }
 }
+.cid-rdrt9rzkGr {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rdrt9rzkGr .mbr-section-subtitle {
+  color: #767676;
+}
 .cid-rd9k0DNHoB {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -3962,6 +3951,36 @@ body {
 }
 @media (max-width: 768px) {
   .cid-rd9k0DNHoB .image-block {
+    width: 100% !important;
+  }
+}
+.cid-rdrtaQ7xhd {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rdrtaQ7xhd .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rdrAKgdrXu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+  background: linear-gradient(0deg, #232323, #ffffff);
+}
+.cid-rdrAKgdrXu .image-block {
+  margin: auto;
+}
+.cid-rdrAKgdrXu figcaption {
+  position: relative;
+}
+.cid-rdrAKgdrXu figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rdrAKgdrXu .image-block {
     width: 100% !important;
   }
 }
