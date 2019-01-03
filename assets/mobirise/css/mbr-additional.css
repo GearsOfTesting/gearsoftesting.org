@@ -1485,7 +1485,7 @@ body {
 }
 .cid-qRshYii2X7 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #f9f9f9;
 }
 .cid-qRshYii2X7 h4 {
@@ -1502,6 +1502,11 @@ body {
 .cid-qRshYii2X7 .card-img span {
   font-size: 72px;
   color: #707070;
+}
+.cid-rdWp5DheYX {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #f9f9f9;
 }
 .cid-qRsigXRYG4 {
   padding-top: 90px;
@@ -1546,7 +1551,7 @@ body {
 }
 .cid-qRsihkOJPv {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #f9f9f9;
 }
 .cid-qRsihkOJPv h4 {
@@ -1563,6 +1568,11 @@ body {
 .cid-qRsihkOJPv .card-img span {
   font-size: 72px;
   color: #707070;
+}
+.cid-rdWnFAhwmC {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #f9f9f9;
 }
 .cid-qRsihEeklh {
   padding-top: 90px;
@@ -4024,6 +4034,65 @@ body {
   .cid-rdLe2ekT9J .image-block {
     width: 100% !important;
   }
+}
+.cid-qRuggtLoj0 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-rdLiyoIsMY {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/blue-gears-1920x1080.jpg");
+}
+.cid-rdLhKULuhE {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-rdLhKULuhE .image-block {
+  margin: auto;
+}
+.cid-rdLhKULuhE figcaption {
+  position: relative;
+}
+.cid-rdLhKULuhE figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rdLhKULuhE .image-block {
+    width: 100% !important;
+  }
+}
+.cid-rdLiWvnCrk {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rdLiWvnCrk .title {
+  margin-bottom: 2rem;
+}
+.cid-rdLiWvnCrk .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rdLiWvnCrk a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rdLiWvnCrk a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rdLiWvnCrk .multi-horizontal {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  max-width: 100%;
+}
+.cid-rdLiWvnCrk .input-group-btn {
+  display: block;
+  text-align: center;
 }
 .cid-qRuggtLoj0 {
   padding-top: 30px;
