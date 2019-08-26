@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Gears Of Testing",
-    "currentPage": "test-typology.html",
+    "currentPage": "references.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -40,7 +40,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/favicon-70x70.png",
     "noImageResize": "",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 244,
+    "uniqCompNum": 259,
     "versionPublish": "4.10.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -573,6 +573,42 @@
           "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-676x451.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Video conferences</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.youtube.com/playlist?list=PLJGwSFwLRVibjPAnUNidt2oQWX1REdl63\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                            Watch</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-676x450.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Infographics</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.flickr.com/photos/xapn\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">Print</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1-676x450.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Slideshows</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.slideshare.net/xengineer\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                            Look</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/cat-face-glasses-thick-492x328.jpg\" alt=\"Cat with glasses\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Blog</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://medium.com/@xavier.pigeon\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">Read</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r2d6Rcjl7R",
           "_anchor": "features3-35",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
+            },
+            "& when (@reverseContent)": {
+              ".content-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section class=\"mbr-section info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on left/right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#cebfaf\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center content-row\">\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Find the references used by GOST at the same place.<br></h3>\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    PRE MADE BLOCKS\n                </h2>\n            </div>\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"references.html\" data-app-placeholder=\"Type Text\">Browse</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzZnju5Wyx",
+          "_anchor": "info1-71",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5487,6 +5523,604 @@
           "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2018-2019 Xavier Pigeon - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qRuggtLoj0",
           "_anchor": "footer6-6c",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {}
+        }
+      ]
+    },
+    "references.html": {
+      "settings": {
+        "meta_descr": "References of GOST",
+        "title": "References",
+        "order": 13
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    REFERENCES OF GOST</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    A concept is rarely alone, but linked to many others.</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Many bodies of knowledge, documentations, articles and books have been consulting to build GOST. The truth is often scattered, and even untruths contribute to it. Please find some of them below.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"index.html#info1-71\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        Less</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rzYTj8urGX",
+          "_anchor": "header1-6t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Software Development &amp; Design</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Façonnez votre futur projet web avec une conception précise et affinez les fonctions codées.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">EN SAVOIR PLUS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">DÉMO LIVE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzZ0wsa3oz",
+          "_anchor": "content4-6y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">- </span><a href=\"https://agilemanifesto.org\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Manifesto for Agile Software Development</a><br></p><p>- <a href=\"http://manifesto.softwarecraftsmanship.org/\" target=\"_blank\">Software Craftsmanship Manifesto</a></p><p>- Test-Driven Development (<a href=\"https://en.wikipedia.org/wiki/Test-driven_development\" target=\"_blank\">en</a> / <a href=\"https://fr.wikipedia.org/wiki/Test_driven_development\" target=\"_blank\">fr</a>), Wikipedia</p><p>- <a href=\"https://en.wikipedia.org/wiki/Bug-driven_development\" target=\"_blank\">Bug-driven development</a>, Wikipedia</p><p>- <a href=\"https://en.wikipedia.org/wiki/Behavior-driven_development\" target=\"_blank\">Behavior-Driven Development</a>, Wikipedia</p><p>-&nbsp;<span style=\"font-size: 1rem;\">A la découverte de l’ATDD – une pratique d’équipe pour le développement (</span><a href=\"https://blog.xebia.fr/2016/12/19/a-la-decouverte-de-latdd-une-pratique-dequipe-pour-le-developpement-13/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">1/3</a><span style=\"font-size: 1rem;\">,&nbsp;</span><a href=\"https://blog.xebia.fr/2017/01/03/a-la-decouverte-de-latdd-une-pratique-dequipe-pour-le-developpement-23/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">2/3</a><span style=\"font-size: 1rem;\">, </span><a href=\"https://blog.xebia.fr/2017/01/11/a-la-decouverte-de-latdd-une-pratique-dequipe-pour-le-developpement-33/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">3/3</a><span style=\"font-size: 1rem;\">)</span></p><p><span style=\"font-size: 1rem;\">- <a href=\"https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864\" target=\"_blank\">test &amp;&amp; commit || revert</a>, Kent Beck</span></p><p><span style=\"font-size: 1rem;\">- <a href=\"https://cucumber.io/docs/gherkin/reference/\" target=\"_blank\">Gherkin Reference</a>, Cucumber</span></p><p><span style=\"font-size: 1rem;\">- Hexagonal Architecture: three principles and an implementation example (<a href=\"https://blog.octo.com/en/hexagonal-architecture-three-principles-and-an-implementation-example/\" target=\"_blank\">en</a> / <a href=\"https://blog.octo.com/architecture-hexagonale-trois-principes-et-un-exemple-dimplementation/\" target=\"_blank\">fr</a>)</span></p><p>- <a href=\"http://referentiel.institut-agile.fr/index_alpha.html\" target=\"_blank\">Référentiel des concepts, pratiques et compétences agiles</a>, Institut Agile</p><p>- <a href=\"https://dico.developpez.com/html/theme15.php\" target=\"_blank\">Le dictionnaire des développeurs</a>, Developpez.com</p><p>- <a href=\"https://whatis.techtarget.com/\" target=\"_blank\">WhatIs.com</a>, thousands of tech definitions</p><p>- Design Principles and Design Pattern, Robert C. Martin</p><p>- YAGNI (<a href=\"https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it\" target=\"_blank\">en</a> / <a href=\"https://fr.wikipedia.org/wiki/YAGNI\" target=\"_blank\">fr</a>), Wikipedia</p><p>- KISS (<a href=\"https://en.wikipedia.org/wiki/KISS_principle\" target=\"_blank\">en</a> / <a href=\"https://fr.wikipedia.org/wiki/Principe_KISS\" target=\"_blank\">fr</a>), Wikipedia</p><p>- DRY (<a href=\"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself\" target=\"_blank\">en</a> / <a href=\"https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas\" target=\"_blank\">fr</a>), Wikipedia</p><p>- <a href=\"http://www.aubryconseil.com/post/Definition-de-fini-multi-niveaux\" target=\"_blank\">Définition de fini multi-niveaux</a>, Claude Aubry</p><p>- Essential complexity (<a href=\"https://fr.wikipedia.org/wiki/Complexit%C3%A9_essentielle\" target=\"_blank\">en</a> / <a href=\"https://en.wikipedia.org/wiki/Essential_complexity\" target=\"_blank\">fr</a>), Wikipedia</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzYTG2QDFa",
+          "_anchor": "content1-6u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"3\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rAhf5HaX2x",
+          "_anchor": "gallery4-76",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/working-effectively-with-legacy-code-489x648.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-effectively-with-legacy-code-489x648-489x648.jpg",
+                "alt": "Working Effectively with Legacy Code, Michael C. Feathers",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Working Effectively with Legacy Code, Michael C. Feathers",
+                "active": false
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/clean-code-robert-c-martin-1st-edition-700x930.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clean-code-robert-c-martin-1st-edition-700x930-700x930.jpg",
+                "alt": "Clean Code, Robert C. Martin",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Clean Code, Robert C. Martin",
+                "active": false
+              },
+              {
+                "tags": "Créatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/refactoring-2-300x392.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/refactoring-2-300x392-300x392.jpg",
+                "alt": "Refactoring, Improving the Design of Existing Code, Martin Fowler",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Refactoring, Improving the Design of Existing Code, Martin Fowler",
+                "active": false
+              },
+              {
+                "tags": "Animé",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/design-patterns-520x648.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/design-patterns-520x648-520x648.jpg",
+                "alt": "Design Patterns, Elements of Reusable Object-Oriented Software, Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Design Patterns, Elements of Reusable Object-Oriented Software, Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+                "active": false
+              },
+              {
+                "tags": "Animé",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/clean-architecture-307x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clean-architecture-307x400-307x400.jpg",
+                "alt": "Clean Architecture, Robert C. Martin",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Clean Architecture, Robert C. Martin",
+                "active": true
+              },
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/domaindrivendesign-500x661.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/domaindrivendesign-500x661-500x661.jpg",
+                "alt": "Domain-Driven Design, Tackling Complexity in the Heart of Software, Eric Evans",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Domain-Driven Design, Tackling Complexity in the Heart of Software, Eric Evans",
+                "active": false
+              },
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/test-driven-development-by-example-398x499.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/test-driven-development-by-example-398x499-398x499.jpg",
+                "alt": "Test-Driven Development By Example, Kent Beck",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Test-Driven Development By Example, Kent Beck",
+                "active": false
+              },
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/coding-dojo-handbook-636x765.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coding-dojo-handbook-636x765-636x765.jpg",
+                "alt": "The Coding Dojo Handbook, Emily Bache",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "The Coding Dojo Handbook, Emily Bache",
+                "active": false
+              },
+              {
+                "tags": "Animé",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/your-code-as-a-crime-scene-2000x2400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/your-code-as-a-crime-scene-2000x2400-800x960.jpg",
+                "alt": "Your Code as a Crime Scene, Adam Tornhill",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Your Code as a Crime Scene, Adam Tornhill",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Software Testing</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Façonnez votre futur projet web avec une conception précise et affinez les fonctions codées.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">EN SAVOIR PLUS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">DÉMO LIVE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzZ0IgcVRf",
+          "_anchor": "content4-6z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">- </span><a href=\"https://www.tutorialspoint.com/software_testing_dictionary/index.htm\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Software Testing Dictionary</a><span style=\"font-size: 1rem;\">, TutorialPoint</span><br></p><p>- ISTQB <a href=\"https://www.istqb.org/downloads/syllabi.html\" target=\"_blank\">Syllabi</a>&nbsp;and <a href=\"https://glossary.istqb.org/en/search/\" target=\"_blank\">Glossary</a></p><p>&nbsp; &nbsp; - <a href=\"http://www.cftl.fr/tests-logiciels/documents-associes-certifications/\" target=\"_blank\">Documents associés aux certifications ISTQB</a>, CFTL</p><p>- <a href=\"http://www.testingstandards.co.uk/\" target=\"_blank\">The Testing Standards Working Party</a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;- <a href=\"http://www.testingstandards.co.uk/living_glossary.htm\" target=\"_blank\">Living Glossary</a></p><p>&nbsp; &nbsp; - <a href=\"http://www.testingstandards.co.uk/interop_et_al.htm\" target=\"_blank\">Integration, Interoperability, Compatibility and Portability</a><br></p><p>- <a href=\"https://www.guru99.com/software-testing.html\" target=\"_blank\">Software Testing</a> @ Guru99</p><p>&nbsp; &nbsp; - <a href=\"https://www.guru99.com/positive-and-negative-testing.html\" target=\"_blank\">Positive Testing and Negative Testing with Examples</a><br></p><p>&nbsp; &nbsp; - <a href=\"https://www.guru99.com/static-dynamic-testing.html\" target=\"_blank\">Static Testing vs Dynamic Testing: What's the Difference?</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.guru99.com/re-testing-vs-regression-testing.html\" target=\"_blank\">Difference Between Retesting and Regression Testing</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.guru99.com/globalization-vs-localization-testing.html\" target=\"_blank\">Difference Between Globalization Testing and Localization Testing</a><br></p><p>- <a href=\"https://www.softwaretestinghelp.com/\" target=\"_blank\">Software Testing Help</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.softwaretestinghelp.com/localization-and-internationalization-testing/\" target=\"_blank\">What Is Localization Testing And Internationalization Testing (Simple Guide)</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.softwaretestinghelp.com/software-compatibility-testing/\" target=\"_blank\">What is Software Compatibility Testing?</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.softwaretestinghelp.com/what-is-portability-testing/\" target=\"_blank\">Portability Testing Guide with Practical Examples</a><br></p><p>- <a href=\"https://www.nbs-system.com/blog/tests-en-boite-noire-grise-ou-blanche-quelles-differences/\" target=\"_blank\">Tests en boîte noire, grise ou blanche : quelles différences ?</a></p><p>- <a href=\"http://sqa.fyicenter.com/FAQ/Software-Testing-Methodolog/What_s_Forced_Error_Test.html\" target=\"_blank\">What's Forced-Error Test</a></p><p>- <a href=\"http://sqa.fyicenter.com/FAQ/Software-Testing-Methodolog/_Operational_Testing_.html\" target=\"_blank\">Operational Testing</a></p><p>- <a href=\"http://sqa.fyicenter.com/FAQ/Software-Testing-Methodolog/Ping_tests.html\" target=\"_blank\">Ping tests</a></p><p>- Wikipedia</p><p>&nbsp;&nbsp;&nbsp;&nbsp;- <a href=\"https://en.wikipedia.org/wiki/Software_regression\" target=\"_blank\">Software regression</a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- </span><a href=\"https://en.wikipedia.org/wiki/Software_performance_testing\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Software Performance Testing</a></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- Fuzzing (<a href=\"https://en.wikipedia.org/wiki/Fuzzing\" target=\"_blank\">en</a> / <a href=\"https://fr.wikipedia.org/wiki/Fuzzing\" target=\"_blank\">fr</a>)</span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://en.wikipedia.org/wiki/Mutation_testing\" target=\"_blank\">Mutation testing</a></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://en.wikipedia.org/wiki/Random_testing\" target=\"_blank\">Random testing</a></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://en.wikipedia.org/wiki/Edge_case\" target=\"_blank\">Edge case</a></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://en.wikipedia.org/wiki/Corner_case\" target=\"_blank\">Corner case</a></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://fr.wikipedia.org/wiki/Faux_n%C3%A9gatif\" target=\"_blank\">Faux négatif</a></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">- <a href=\"https://fr.wikipedia.org/wiki/Faux_positif\" target=\"_blank\">Faux positif</a></span></p><p>&nbsp; &nbsp; - <a href=\"https://en.wikipedia.org/wiki/System_integration_testing\" target=\"_blank\">System integration testing</a></p><p>&nbsp; &nbsp; - <a href=\"https://en.wikipedia.org/wiki/Portability_testing\" target=\"_blank\">Portability testing</a></p><p>&nbsp; &nbsp; - <a href=\"https://en.wikipedia.org/wiki/Monkey_testing\" target=\"_blank\">Monkey testing</a></p><p>&nbsp; &nbsp; - <a href=\"https://en.wikipedia.org/wiki/Acceptance_testing\" target=\"_blank\">Acceptance testing</a></p><p>- <a href=\"http://www.testingperformance.org/definitions/what-is-failover-testing\" target=\"_blank\">What is failover testing?</a></p><p>- <a href=\"http://www.testingperformance.org/definitions/what-is-spike-testing\" target=\"_blank\">What is spike testing?</a></p><p>- <a href=\"http://softwaretestingfundamentals.com/\" target=\"_blank\">Software Testing Fundamentals</a></p><p>&nbsp; &nbsp; - <a href=\"http://softwaretestingfundamentals.com/compliance-testing/\" target=\"_blank\">Compliance Testing</a><br></p><p>- <a href=\"https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid\" target=\"_blank\">The Forgotten Layer of the Test Automation Pyramid</a>, Mike Cohn</p><p>- <a href=\"http://www.exampler.com/old-blog/2003/08/22/#agile-testing-project-2\" target=\"_blank\">Agile Testing Matrix</a>, Brian Marick</p><p>- <a href=\"https://lisacrispin.com/2011/11/08/using-the-agile-testing-quadrants/\" target=\"_blank\">Using the Agile Testing Quadrants</a>, Lisa Crispin</p><p>- <a href=\"http://www.informit.com/articles/article.aspx?p=412922&seqNum=1\" target=\"_blank\">The Realities of Software Testing</a>, Ron Patton</p><p>- The <a href=\"https://www.ing.jobs/Global/Careers/Orange-code.htm\" target=\"_blank\">Orange Code</a> of ING</p><p>- <a href=\"http://www.growingagile.co.nz/2015/04/the-testing-manifesto/\" target=\"_blank\">The Testing Manifesto</a>, Growing Agile</p><p>- <a href=\"https://cucumber.io/blog/example-mapping-introduction/\" target=\"_blank\">Introducing Example Mapping</a></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzYTHatGNq",
+          "_anchor": "content1-6v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"4\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rzZTLJYNfs",
+          "_anchor": "gallery4-74",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Adaptatif",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/les-tests-logiciels-fondamentaux-362x550.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/les-tests-logiciels-fondamentaux-362x550-362x550.jpg",
+                "alt": "Les tests logiciels, fondamentaux, Bernard Homès",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Les tests logiciels, fondamentaux, Bernard Homès",
+                "active": false
+              },
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/how-google-tests-software-386x499.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/how-google-tests-software-386x499-386x499.jpg",
+                "alt": "How Google Tests Software, James Whittaker, Jason Arbon, Jeff Carollo",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "How Google Tests Software, James Whittaker, Jason Arbon, Jeff Carollo",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Versioning</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Façonnez votre futur projet web avec une conception précise et affinez les fonctions codées.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">EN SAVOIR PLUS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">DÉMO LIVE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzZlrzYuB3",
+          "_anchor": "content4-70",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>- <a href=\"https://semver.org\" target=\"_blank\">Semantic Versioning</a></p><p>- <a href=\"https://en.wikipedia.org/wiki/Software_release_life_cycle\" target=\"_blank\">Software release life cyle</a>, Wikipedia</p><p>- <a href=\"https://blog.codinghorror.com/alpha-beta-and-sometimes-gamma/\" target=\"_blank\">Alpha, Beta, and Sometimes Gamma\n</a></p><p>- <a href=\"https://fr.wikipedia.org/wiki/Version_d%27un_logiciel\" target=\"_blank\">Version d'un logiciel</a>, Wikipedia\n</p><p>- <a href=\"https://en.wikipedia.org/wiki/Software_versioning\" target=\"_blank\">Software versioning</a>, Wikipedia\n</p><p>- <a href=\"https://doc.ubuntu-fr.org/lts\" target=\"_blank\">Versions maintenues à long terme (LTS)\n</a></p><p>- <a href=\"https://docs.joomla.org/Release_and_support_cycle\" target=\"_blank\">Release and support cycle</a>, Joomla!</p><p>- <a href=\"https://fr.wikipedia.org/wiki/Compatibilité_ascendante_et_descendante\" target=\"_blank\">Compatibilité ascendante et descendante</a>, Wikipedia</p><p>- Workflows</p><p>&nbsp; &nbsp; - <a href=\"https://www.atlassian.com/git/tutorials/comparing-workflows\" target=\"_blank\">Comparing Workflows</a><br></p><p>&nbsp; &nbsp; - <a href=\"https://nvie.com/posts/a-successful-git-branching-model/\" target=\"_blank\">A successful Git branching model</a>, Vincent Driessen<br></p><p>&nbsp; &nbsp; - <a href=\"https://guides.github.com/introduction/flow/\" target=\"_blank\">Understanding the GitHub flow</a></p><p>&nbsp; &nbsp; - <a href=\"https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow\" target=\"_blank\">OneFlow - a Git branching model and workflow</a></p><p>&nbsp;&nbsp; &nbsp;- <a href=\"https://trunkbaseddevelopment.com/\" target=\"_blank\">Trunk-Based Development</a></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rzZsYuod3Y",
+          "_anchor": "content1-72",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rAbmPoDFEM",
+          "_anchor": "gallery1-75",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Impressionnant",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/progit2-500x660.png",
+                "thumb": "@PROJECT_PATH@/assets/images/progit2-500x660-500x660.png",
+                "alt": "Pro Git, Scott Chacon and Ben Straub",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Pro Git, Scott Chacon and Ben Straub",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2018-2019 Xavier Pigeon - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qRuggtLoj0",
+          "_anchor": "footer6-6s",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
