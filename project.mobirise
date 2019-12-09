@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Gears Of Testing",
-    "currentPage": "tempo-of-testing.html",
+    "currentPage": "test-typology.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1200,13 +1200,13 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/test-targets-1472x1626.png",
-                "thumb": "@PROJECT_PATH@/assets/images/test-targets-1472x1626-800x884.png",
+                "image": "@PROJECT_PATH@/assets/images/test-targets-1474x1626.png",
+                "thumb": "@PROJECT_PATH@/assets/images/test-targets-1474x1626-800x882.png",
                 "alt": "Test targets",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Categorization",
@@ -1271,7 +1271,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tapez la légende ici",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Categorization",
